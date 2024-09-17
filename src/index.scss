@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+body,
+#root {
+  height: 100vh;
+}

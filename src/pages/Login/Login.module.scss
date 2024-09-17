@@ -1,0 +1,17 @@
+.login {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-content {
+    &-btn {
+      padding: 5px 10px;
+      background: blue;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
+}
